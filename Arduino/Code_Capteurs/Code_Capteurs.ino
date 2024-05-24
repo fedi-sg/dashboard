@@ -4,7 +4,7 @@
 #include <DHT.h>
 
 // Remplacez par vos informations de réseau WiFi
-const char* ssid = "Redmi 12";
+const char* ssid = "wifi";
 const char* password = "12345678";
 
 const int ledPin = 23;
@@ -60,7 +60,7 @@ ControlStates getControlStates() {
         return states;
     }
     HTTPClient http;
-    http.begin(client, "http://192.168.48.165:3000/api/actions/ds");  // URL correcte
+    http.begin(client, "http://localhost:3000/api/actions/ds");  // URL correcte
     int httpCode = http.GET();
     if (httpCode > 0) {
         String payload = http.getString();
@@ -122,7 +122,7 @@ const char* s = "ds";
 
  if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;
-    http.begin(client, "http://192.168.48.165:3000/sensor-data");
+    http.begin(client, "http://localhost:3000/sensor-data");
     http.addHeader("Content-Type", "application/json");
 
     StaticJsonDocument<300> doc;
