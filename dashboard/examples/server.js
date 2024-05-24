@@ -10,7 +10,7 @@ const port = 3000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://3iotpfe:FEDOBFkiKrf0JTFo@dashpoultry.igiqe9n.mongodb.net/dashpoultry')
+mongoose.connect('url://database/dashpoultry')
   .then(() => console.log("Connexion à MongoDB réussie."))
   .catch(err => console.error("Échec de la connexion à MongoDB", err));
  
@@ -596,9 +596,6 @@ app.get('/api/temperatures/day/:organizationName', async (req, res) => {
     res.status(500).json({ message: "Erreur lors de la récupération des températures par jour" });
   }
 });
-
-
-
 // Fonction pour récupérer et envoyer toutes les données d'humidité, triées par date
 // API pour obtenir les données d'humidité hebdomadaire pour une organisation spécifique
 app.get('/api/humidities/week/:organizationName', async (req, res) => {
