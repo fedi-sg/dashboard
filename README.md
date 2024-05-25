@@ -10,7 +10,7 @@ Here is the revised `README.md` with the demo and hardware/software requirements
 
 https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0cf68ba955d8
 
-   ```
+  
 
 To run the demo locally, follow these steps:
 
@@ -48,11 +48,11 @@ To run the demo locally, follow these steps:
 - **ESP32 Microcontroller**: For connecting and managing the sensors.
   - **ESP32 Development Board**: Such as the ESP32-WROOM-32.
 - **Sensors**:
-  - **Temperature Sensor**: DHT11, DHT22, or DS18B20.
-  - **Humidity Sensor**: Often combined with temperature sensors like DHT11 or DHT22.
+  - **Temperature Sensor**: DHT11, DHT22.
+  - **Humidity Sensor**: DHT11 or DHT22.
   - **Air Quality Sensors**: MQ-135 for CO2 and NH3 measurements.
-  - **Dust Sensor**: GP2Y1010AU0F or DSM501A.
-  - **Luminosity Sensor**: BH1750 or TSL2561.
+  - **Dust Sensor**: GP2Y1010AU0F.
+  - **Luminosity Sensor**: BH1750.
 - **Breadboard and Jumper Wires**: For connecting the sensors to the ESP32.
 - **Power Supply**: USB power supply for the ESP32.
 - **Internet Connection**: Required for the ESP32 to send data to the server and for accessing the dashboard remotely.
