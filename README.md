@@ -5,17 +5,12 @@ Here is the revised `README.md` with the demo and hardware/software requirements
 
 ## Demo
 
-### Video Demo
 
+   ```
 
+https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0cf68ba955d8
 
-
-
-https://github.com/fedi-sg/dashboard/assets/170746218/81947342-aad4-40e2-b487-1d8ee72db858
-
-
-
-
+   ```
 
 To run the demo locally, follow these steps:
 
@@ -23,10 +18,8 @@ To run the demo locally, follow these steps:
    ```sh
    git clone https://github.com/fedi-sg/dashboard.git
    cd dashboard
+
    ```
-
-
-https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0cf68ba955d8
 
 
 2. **Install the required dependencies:**
