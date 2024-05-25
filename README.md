@@ -238,4 +238,3 @@ To run the demo locally, follow these steps:
 ### Access the Dashboard
 - Open a web browser and go to `http://localhost:3000`.
 
-```
