@@ -10,7 +10,7 @@ const port = 3000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('url://database/dashpoultry')
+mongoose.connect('mongodb+srv://3iotpfe:FEDOBFkiKrf0JTFo@dashpoultry.igiqe9n.mongodb.net/dashpoultry')
   .then(() => console.log("Connexion à MongoDB réussie."))
   .catch(err => console.error("Échec de la connexion à MongoDB", err));
  
