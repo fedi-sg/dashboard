@@ -10,7 +10,15 @@ Here is the revised `README.md` with the demo and hardware/software requirements
 
 https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0cf68ba955d8
 
-  
+
+
+
+## architecture system 
+
+![Smart-Poultry-System](https://github.com/fedi-sg/dashboard/assets/170746218/b79c27b2-6789-4476-a95f-dc136dd10031)
+
+
+   ```
 
 To run the demo locally, follow these steps:
 
@@ -198,6 +206,9 @@ DashPoultry/
 ```
 
 ## Setting Up the ESP32 with Sensors
+### Hardware Setup and Wiring Diagram for Smart Poultry Farm Monitoring System
+
+![Uploading Capture d’écran 2024-05-12 145148.png…]()
 
 ### Install ESP32 Board in Arduino IDE
 1. Open Arduino IDE.
