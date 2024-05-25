@@ -25,6 +25,10 @@ To run the demo locally, follow these steps:
    cd dashboard
    ```
 
+
+https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0cf68ba955d8
+
+
 2. **Install the required dependencies:**
    Make sure you have [Node.js](https://nodejs.org/) and npm installed.
    ```sh
