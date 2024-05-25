@@ -20,31 +20,6 @@ https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0c
 
 
 
-To run the demo locally, follow these steps:
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/fedi-sg/dashboard.git
-   cd dashboard
-
-   ```
-
-
-2. **Install the required dependencies:**
-   Make sure you have [Node.js](https://nodejs.org/) and npm installed.
-   ```sh
-   npm install
-   ```
-
-3. **Run the server:**
-   ```sh
-   npm start
-   ```
-
-4. **Open your browser and navigate to:**
-   ```
-   http://localhost:3000
-   ```
 
 ## Hardware and Software Requirements
 
@@ -238,10 +213,27 @@ DashPoultry/
 ### Execute Code to Read Sensor Data and Send to Server
 - Upload the code to the ESP32 using Arduino IDE.
 
-### Run the Server
-```sh
-npm start
-```
+
+To run the demo locally, follow these steps:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/fedi-sg/dashboard.git
+   cd dashboard
+
+   ```
+
+
+2. **Install the required dependencies:**
+   Make sure you have [Node.js](https://nodejs.org/) and npm installed.
+   ```sh
+   npm install
+   ```
+
+3. **Run the server:**
+   ```sh
+   npm start
+   ```
 
 ### Access the Dashboard
 - Open a web browser and go to `http://localhost:3000`.
