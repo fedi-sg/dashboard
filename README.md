@@ -183,7 +183,8 @@ DashPoultry/
 ## Setting Up the ESP32 with Sensors
 ### Hardware Setup and Wiring Diagram for Smart Poultry Farm Monitoring System
 
-![Uploading Capture d’écran 2024-05-12 145148.png…]()
+<img width="437" alt="Capture d’écran 2024-05-12 145148" src="https://github.com/fedi-sg/dashboard/assets/170746218/03fd0025-2bf5-49f1-b4bb-b2365ea1f0a7">
+
 
 ### Install ESP32 Board in Arduino IDE
 1. Open Arduino IDE.
