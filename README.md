@@ -87,12 +87,9 @@ To run the demo locally, follow these steps:
   - Installation: Download from [Arduino official website](https://www.arduino.cc/en/software).
 - **Text Editor/IDE**: For writing and editing code.
   - **Visual Studio Code**: Recommended for its rich feature set and extensions.
-  - **Sublime Text**
-  - **Atom**
+
 - **Web Browser**: For accessing the dashboard.
   - **Google Chrome** (recommended)
-  - **Mozilla Firefox**
-  - **Microsoft Edge**
 
 ### Libraries and Frameworks
 - **Express.js**: For building the backend server.
