@@ -1,14 +1,10 @@
-Here is the revised `README.md` with the demo and hardware/software requirements sections moved to the top:
-
-```markdown
-# DashPoultry: Comprehensive Poultry Farm Management Dashboard
-
-## Demo
-
 
    ```
 
-https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0cf68ba955d8
+
+
+https://github.com/fedi-sg/dashboard/assets/170746218/d8cac4c2-841f-4950-9c00-64098224e6fc
+
 
 
 
@@ -43,36 +39,9 @@ https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0c
 ### Software Requirements
 - **Operating System**:
   - **Windows 10/11**
-  - **macOS**
-  - **Linux (Ubuntu recommended)**
 - **Node.js**: JavaScript runtime environment.
   - Version: 12.x or later
-  - Installation:
-    - **Windows/macOS**: Download the installer from [Node.js official website](https://nodejs.org/) and follow the installation instructions.
-    - **Linux (Ubuntu)**:
-      ```sh
-      sudo apt update
-      sudo apt install nodejs npm
-      ```
-- **npm (Node Package Manager)**: Comes with Node.js. Used for managing project dependencies.
-  - Version: 6.x or later
-- **Git**: Version control system to manage the project code.
-  - Version: 2.x or later
-  - Installation:
-    - **Windows/macOS**: Download the installer from [Git official website](https://git-scm.com/) and follow the installation instructions.
-    - **Linux (Ubuntu)**:
-      ```sh
-      sudo apt update
-      sudo apt install git
-      ```
-- **Arduino IDE**: For programming the ESP32.
-  - Version: 1.8.x or later
-  - Installation: Download from [Arduino official website](https://www.arduino.cc/en/software).
-- **Text Editor/IDE**: For writing and editing code.
-  - **Visual Studio Code**: Recommended for its rich feature set and extensions.
 
-- **Web Browser**: For accessing the dashboard.
-  - **Google Chrome** (recommended)
 
 ### Libraries and Frameworks
 - **Express.js**: For building the backend server.
