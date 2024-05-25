@@ -9,7 +9,10 @@ Here is the revised `README.md` with the demo and hardware/software requirements
 
 
 
-https://github.com/fedi-sg/dashboard/assets/170746218/dbc048ad-3b9c-4de0-a231-8e72d07cca79
+
+
+https://github.com/fedi-sg/dashboard/assets/170746218/81947342-aad4-40e2-b487-1d8ee72db858
+
 
 
 
