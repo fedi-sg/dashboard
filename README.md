@@ -18,7 +18,7 @@ https://github.com/fedi-sg/dashboard/assets/170746218/b8979f30-4fe4-4c5d-90dc-0c
 ![Smart-Poultry-System](https://github.com/fedi-sg/dashboard/assets/170746218/b79c27b2-6789-4476-a95f-dc136dd10031)
 
 
-   ```
+
 
 To run the demo locally, follow these steps:
 
